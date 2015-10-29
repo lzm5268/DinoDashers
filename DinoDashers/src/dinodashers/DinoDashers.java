@@ -5,19 +5,32 @@
  */
 package dinodashers;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author mzk5401
  */
-public class DinoDashers {
+public class DinoDashers extends JFrame {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
         // TODO code application logic here
         MainPanel mainPanel = new MainPanel();
+
+        
+        JFrame gameFrame = new JFrame();
+        
+
+        
+        
+
         
     }
+    
+    
     
 }

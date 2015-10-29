@@ -125,7 +125,9 @@ public class MainPanel extends javax.swing.JPanel {
 
     private void startActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startActionPerformed
     this.setVisible(false);
-    GamePanel theGamePanel = new GamePanel();
+    GamePanel gamePanel = new GamePanel();
+    this.add(gamePanel);
+    gamePanel.setVisible(true);
     }//GEN-LAST:event_startActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

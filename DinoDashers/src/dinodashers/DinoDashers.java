@@ -16,6 +16,8 @@ public class DinoDashers {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        MainPanel mainPanel = new MainPanel();
+        
     }
     
 }
